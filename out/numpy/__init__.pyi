@@ -12,6 +12,14 @@ def pkgload(*packages, **options): ...
 
 unicode = ...  # type: Any
 
+def array(arr: List[Any]): ...
+
+def sum(arr: ndarray) -> float: ...
+
+class ndarray(object):
+    def flatten(self: ndarray) -> ndarray: ...
+
+
 # Names in __all__ with no definition:
 #   ALLOW_THREADS
 #   BUFSIZE
@@ -96,7 +104,6 @@ unicode = ...  # type: Any
 #   argwhere
 #   around
 #   around
-def array(arr: List[Any]): ...
 #   array2string
 #   array_equal
 #   array_equiv
@@ -396,9 +403,6 @@ def array(arr: List[Any]): ...
 #   nansum
 #   nanvar
 #   nbytes
-class ndarray(object):
-    def flatten(self: ndarray) -> ndarray: ...
-
 #   ndenumerate
 #   ndfromtxt
 #   ndim

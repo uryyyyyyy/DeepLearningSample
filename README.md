@@ -10,7 +10,7 @@ pip install -r packages_requirements.txt
 ## typeshed
 
 ```
-export MYPYPATH=./typeshed/
+export MYPYPATH=./out/
 ```
 
 # for developer
@@ -19,4 +19,11 @@ export MYPYPATH=./typeshed/
 
 ```
 pip freeze > packages_requirements.txt
+```
+
+## gen stub
+
+```
+stubgen matplotlib
+stubgen matplotlib.pyplot
 ```

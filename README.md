@@ -19,7 +19,7 @@ pip install -r packages_requirements.txt
 
 ```
 export MYPYPATH=./out/
-mypy [fileName]
+mypy --python-version 3.6 ./chapter2/
 ```
 
 # for developer

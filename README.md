@@ -1,9 +1,17 @@
 
+## python setup
+
+```
+# install pyenv & pyenv virtual
+pyenv install 3.6.0
+pyenv virtualenv 3.6.0 deep_learning_sample_3.6.0
+pyenv local deep_learning_sample_3.6.0
+```
 
 ## use
 
 ```
-# use python 3.5.1
+# use python 3.6.0
 pip install -r packages_requirements.txt
 ```
 

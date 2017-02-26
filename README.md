@@ -15,10 +15,11 @@ pyenv local deep_learning_sample_3.6.0
 pip install -r packages_requirements.txt
 ```
 
-## typeshed
+## type check
 
 ```
 export MYPYPATH=./out/
+mypy [fileName]
 ```
 
 # for developer
